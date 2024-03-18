@@ -1,0 +1,36 @@
+site_name: Georgia Zachou
+site_description: Georgia's personal site
+site_author: Geo Za
+repo_name: GeorgiaZ9.github.io
+repo_url: https://github.com/GeorgiaZ9/GeorgiaZ9.github.io
+edit_uri: 'blob/master/docs'
+
+markdown_extensions:
+    - pymdownx.arithmatex
+    - pymdownx.extra
+    - pymdownx.details
+    - pymdownx.magiclink
+    - pymdownx.tilde
+    - pymdownx.tasklist
+    - pymdownx.smartsymbols
+    - pymdownx.mark
+    - pymdownx.snippets
+    - pymdownx.details
+    - pymdownx.superfences
+#   - pymdownx.emoji:
+#        emoji_index: !!python/name:materialx.emoji.twemoji
+#        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+theme:
+    static_templates:
+    name: mkdocs
+    locale: en
+    static_templates:
+      - index.html
+      - portfolio-details.html
+    include_sidebar: false
+    
+nav:
+    - Home: index.md
+    - CV:
+        - docs/index.md
