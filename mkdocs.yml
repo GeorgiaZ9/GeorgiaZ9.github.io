@@ -3,7 +3,7 @@ site_description: Georgia's personal site
 site_author: Geo Za
 repo_name: GeorgiaZ9.github.io
 repo_url: https://github.com/GeorgiaZ9/GeorgiaZ9.github.io
-edit_uri: 'blob/master/docs'
+edit_uri: "blob/master/docs"
 
 markdown_extensions:
     - pymdownx.arithmatex
@@ -22,15 +22,11 @@ markdown_extensions:
 #        emoji_generator: !!python/name:materialx.emoji.to_svg
 
 theme:
-    static_templates:
     name: mkdocs
     locale: en
     static_templates:
-      - index.html
-      - portfolio-details.html
+        - index.html
+        - portfolio-details.html
+        - service-details.html
+        - starter-page.html
     include_sidebar: false
-    
-nav:
-    - Home: index.md
-    - CV:
-        - docs/index.md
