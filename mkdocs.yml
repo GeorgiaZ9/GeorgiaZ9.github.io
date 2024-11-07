@@ -26,7 +26,7 @@ theme:
     locale: en
     static_templates:
         - index.html
-        - portfolio-details.html
-        - service-details.html
-        - starter-page.html
     include_sidebar: false
+
+nav:
+    - Home: index.html
