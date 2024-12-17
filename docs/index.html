@@ -7,6 +7,13 @@
   <title>Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LaTeX in HTML</title>
+  <!-- Include MathJax -->
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -248,45 +255,50 @@
                 <h4>Intern</h4>
                 <h5>July 2024 - August 2024</h5>
                 <p><em>NCSR "Demokritos", Theoretical High Energy physics Department</em></p>
+                <h6>Explicit calculations of currents in the context of SMEFT &</h6>
+                <h6>LO study of top-philic Z΄production in
+                  HELAC</h6>
                 <ul>
-                  After getting familiar with analytical scattering amplitudes calculations using Feynman rules, I built
-                  a
-                  python library for QFT objects and performed symbolic calculations for SMEFT operators acting on
-                  fermions, antifermions, vectors and scalars. This library is published on the Github repository
-                  </stron>
-                  <a href="https://github.com/GeorgiaZ9/QFT_numerical_calculations"
-                    target="_blank">QFT_numerical_calculations</a>. The
-                  symbolically calculated currents are going to be
-                  implemented in HELAC interface for scattering amplitude simulations.
+                  <li> Got familiar with analytical scattering amplitudes calculations using Feynman rules.</li>
+                  <li> 1st Project: Performed symbolical calculations within the framework of Standard Model Effective
+                    Field Theory. Developed a Python library to compute currents based on three specific SMEFT operators
+                    𝑂𝑢𝐺,𝑂𝑢𝐻 and 𝑂𝐻𝐺. This library is published on the Github repository </stron><a
+                      href="https://github.com/GeorgiaZ9/QFT_numerical_calculations"
+                      target="_blank">QFT_numerical_calculations</a>.
+                  </li>
+                  <li>2nd Project: Implemented the top-philic Z΄ model, as known from the literature: <strong><a
+                        href="https://arxiv.org/abs/1604.07421" target="_blank">“Probing TeV scale
+                        Top-Philic Resonances with Boosted Top-Tagging at the High Luminosity LHC”</a></strong>, in the
+                    FORTRAN based
+                    interface HELAC-PHEGAS and studied a simple process \( pp \xrightarrow{} t \bar{t} t \bar{t} \)
+                    (only \(O(a_s^4) \)) at Low-Order
+                    (LO) perturbation theory. I compared the transverse momenta (\(p_T\)) and pseudorapidity (\(\eta\))
+                    distributions of this model to the SM.</li>
                 </ul>
               </div>
               <div class="resume-item">
                 <h4>Technical Student</h4>
                 <h5>February 2023 - March 2024</h5>
                 <p><em>CERN, Geneva, Switzerland </em></p>
+                <h6>Unified common source for LTS & HTS magnet material properties</h6>
                 <ul>
-                  I built a library with all material properties written in cpp, and made the wrappers for their
+                  I built a library with material properties for materials used in HTS and LTS magnets written in cpp,
+                  and made the wrappers for their
                   compilation in other programming languages like MatLab, Python. Also, achieved their implementation in
-                  simulation tools like COMSOL or FiQuS (through GetDP). Worked mainly with MatLab, C++ and Python
-                  (Mainly
-                  Jinja2, pandas, numpy).
+                  simulation tools like COMSOL or FiQuS (through GetDP). Worked mainly with MatLab, Python and C++
+                  (Jinja2, pandas, numpy).
                   <li>Wrote the cpp functions and their wrappers, implemented on different simulation tools that use
                     different programming languages.</li>
                   <li>Created compilation and unit tests that compare the newly generated functions with the previously
-                    used
-                    ones.</li>
+                    used ones.</li>
                   <li>Created STEAM-Material-library’s website using mkdocs on GitLab.
                   <li>Set up pipelines on GitLab that automatically run the compilations, tests and website compilation
-                    to
-                    fully automate the procedures.</li>
+                    to fully automate the procedures.</li>
                   <li>Participated as a Co-author on the paper: </stron><a href="https://arxiv.org/abs/2311.09177"
-                      target="_blank">An
-                      Open-Source 3D FE Quench Simulation Tool for
+                      target="_blank">An Open-Source 3D FE Quench Simulation Tool for
                       No-Insulation</a></li>
                 </ul>
               </div><!-- Edn Resume Item -->
-
-
 
             </div>
 
@@ -379,6 +391,10 @@
               <li><a href="notes/Excercise_NN_ge19098.pdf" target="_blank">Assignment Neural Networks (Greek)</a> for
                 the
                 classification of gamma and hadron signals in a Cherenkov detector</li>
+              <li><a href="notes/steam_materials.pdf" target="_blank">CERN presentation</a></li>
+              <li><a href="notes/Spectroscopic_Measurements_GOLEM.pdf" target="_blank">Spectroscopic measurements</a>
+                during a transport barrier formation in <a href="https://golem.fjfi.cvut.cz/wiki/" target="blank">GOLEM
+                </a> tokamak</li>
             </ul>
             </p>
           </div><!-- End Section Title -->
